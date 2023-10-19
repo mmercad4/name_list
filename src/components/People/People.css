@@ -1,0 +1,21 @@
+.people {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 80%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.person,
+.heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading {
+  border-bottom: 1px solid black;
+}
